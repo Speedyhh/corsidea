@@ -802,34 +802,18 @@ require_once 'config.php';
   <div id="cookie-notice"
     style="position: fixed; bottom: 0; left: 0; right: 0; background: #222; color: #fff; padding: 10px 20px; text-align: center; font-family: sans-serif; z-index: 9999;">
     Questo sito utilizza solo cookie tecnici essenziali.
-    <a href="https://www.carvizio.it/Cookie-Policy.pdf" target="_blank"
+    <a href="https://www.corsidea.it/cookie-policy.pdf" target="_blank"
       style="color: #ffd700; text-decoration: underline;">Leggi la cookie policy completa</a>.
     <button id="cookie-close"
       style="margin-left: 15px; padding: 5px 10px; border: none; background: #ffd700; color: #222; cursor: pointer;">Chiudi</button>
   </div>
-
-  <!-- JQuery v2.2.4 -->
-  <script src="js/jquery/jquery-2.2.4.min.js"></script>
-
-  <!-- Superfish v1.7.9 -->
-  <script src="js/plugins/jquery.superfish.min.js"></script>
-
-  <!-- Owl carousel v2.2.1 -->
-  <script src="js/plugins/jquery.owl.carousel.min.js"></script>
-
-  <!-- Parallax v1.4.2  -->
-  <script src="js/plugins/jquery.parallax.min.js"></script>
-
-  <!-- Main script -->
-  <script src="js/main.js"></script>
-  <script type="text/javascript">
-  < script >
-    // Controlla se il cookie esiste
-    function getCookie(name) {
-      const value = `; ${document.cookie}`;
-      const parts = value.split(`; ${name}=`);
-      if (parts.length === 2) return parts.pop().split(';').shift();
-    }
+  <script>
+  // Controlla se il cookie esiste
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
 
   // Mostra il banner solo se il cookie non esiste
   if (!getCookie('cookie_notice_accepted')) {
@@ -847,6 +831,22 @@ require_once 'config.php';
     document.cookie = "cookie_notice_accepted=true; expires=" + d.toUTCString() + "; path=/";
   };
   </script>
+  <!-- JQuery v2.2.4 -->
+  <script src="js/jquery/jquery-2.2.4.min.js"></script>
+
+  <!-- Superfish v1.7.9 -->
+  <script src="js/plugins/jquery.superfish.min.js"></script>
+
+  <!-- Owl carousel v2.2.1 -->
+  <script src="js/plugins/jquery.owl.carousel.min.js"></script>
+
+  <!-- Parallax v1.4.2  -->
+  <script src="js/plugins/jquery.parallax.min.js"></script>
+
+  <!-- Main script -->
+  <script src="js/main.js"></script>
+  <script type="text/javascript">
   < /body>
 
-    < /html>
+  <
+  /html>
