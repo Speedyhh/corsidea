@@ -383,7 +383,7 @@ require_once 'config.php';
             <div class="col-sm-4 col-md-4 col-lg-4">
               <div class="footer-info">
                 <a class="footer-info__01" href="privacy-policy-corsidea.pdf">Privacy Policy</a>
-                <a class="footer-info__02" href="cookie-policy.html">Cookie Policy</a>
+                <a class="footer-info__02" href="cookie-policy.pdf">Cookie Policy</a>
               </div>
             </div>
           </div>
@@ -409,18 +409,6 @@ require_once 'config.php';
 <!-- Main script -->
 <script src="js/main.js"></script>
 <script src="/js/slider.js"></script>
-<script type="text/javascript">
-var _iub = _iub || [];
-_iub.csConfiguration = {
-  "siteId": 3850995,
-  "cookiePolicyId": 79319840,
-  "lang": "it",
-  "storage": {
-    "useSiteId": true
-  }
-};
-</script>
-<script type="text/javascript" src="https://cs.iubenda.com/autoblocking/3850995.js"></script>
-<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+
 
 </html>

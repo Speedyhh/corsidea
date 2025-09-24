@@ -790,7 +790,7 @@ require_once 'config.php';
           <div class="col-sm-4 col-md-4 col-lg-4">
             <div class="footer-info">
               <a class="footer-info__01" href="privacy-policy-corsidea.pdf">Privacy Policy</a>
-              <a class="footer-info__02" href="cookie-policy.html">Cookie Policy</a>
+              <a class="footer-info__02" href="cookie-policy.pdf">Cookie Policy</a>
             </div>
           </div>
         </div>
@@ -798,6 +798,14 @@ require_once 'config.php';
     </div>
     <a href="#" class="back2top" title="Back to Top">Back to Top</a>
   </footer>
+  </div>
+  <div id="cookie-notice"
+    style="position: fixed; bottom: 0; left: 0; right: 0; background: #222; color: #fff; padding: 10px 20px; text-align: center; font-family: sans-serif; z-index: 9999;">
+    Questo sito utilizza solo cookie tecnici essenziali.
+    <a href="https://www.carvizio.it/Cookie-Policy.pdf" target="_blank"
+      style="color: #ffd700; text-decoration: underline;">Leggi la cookie policy completa</a>.
+    <button id="cookie-close"
+      style="margin-left: 15px; padding: 5px 10px; border: none; background: #ffd700; color: #222; cursor: pointer;">Chiudi</button>
   </div>
 
   <!-- JQuery v2.2.4 -->
@@ -815,19 +823,30 @@ require_once 'config.php';
   <!-- Main script -->
   <script src="js/main.js"></script>
   <script type="text/javascript">
-  var _iub = _iub || [];
-  _iub.csConfiguration = {
-    "siteId": 3850995,
-    "cookiePolicyId": 79319840,
-    "lang": "it",
-    "storage": {
-      "useSiteId": true
+  < script >
+    // Controlla se il cookie esiste
+    function getCookie(name) {
+      const value = `; ${document.cookie}`;
+      const parts = value.split(`; ${name}=`);
+      if (parts.length === 2) return parts.pop().split(';').shift();
     }
+
+  // Mostra il banner solo se il cookie non esiste
+  if (!getCookie('cookie_notice_accepted')) {
+    document.getElementById('cookie-notice').style.display = 'block';
+  } else {
+    document.getElementById('cookie-notice').style.display = 'none';
+  }
+
+  // Chiudi banner e salva cookie
+  document.getElementById('cookie-close').onclick = function() {
+    document.getElementById('cookie-notice').style.display = 'none';
+    // Cookie valido 30 giorni
+    var d = new Date();
+    d.setTime(d.getTime() + (30 * 24 * 60 * 60 * 1000));
+    document.cookie = "cookie_notice_accepted=true; expires=" + d.toUTCString() + "; path=/";
   };
   </script>
-  <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/3850995.js"></script>
-  <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+  < /body>
 
-</body>
-
-</html>
+    < /html>

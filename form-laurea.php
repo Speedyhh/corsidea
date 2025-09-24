@@ -375,7 +375,7 @@ require_once 'config.php';
             <div class="col-sm-4 col-md-4 col-lg-4">
               <div class="footer-info">
                 <a class="footer-info__01" href="privacy-policy-corsidea.pdf">Privacy Policy</a>
-                <a class="footer-info__02" href="cookie-policy.html">Cookie Policy</a>
+                <a class="footer-info__02" href="cookie-policy.pdf">Cookie Policy</a>
               </div>
             </div>
           </div>
