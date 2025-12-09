@@ -302,18 +302,48 @@ require_once 'config.php';
 
           <div class="policy-group">
             <input type="checkbox" name="newsletter" id="newsletter">
-            <label for="newsletter">Fornisco il consenso ad Adextra Italia S.r.l.s. al trattamento dei miei dati
-              personali per l’invio di comunicazioni promozionali, newsletter, materiale pubblicitario, per mezzo di
-              sistemi tradizionali di contatto e sistemi informatici
+            <label for="newsletter"> Fornisco il consenso ad Adextra Italia S.r.l.s. al trattamento dei miei dati
+              personali per
+              l’invio di comunicazioni
+              promozionali, newsletter, materiale pubblicitario, per mezzo di sistemi tradizionali di contatto e sistemi
+              informatici
               automatizzati, ivi incluse comunicazioni commerciali o promozionali a mezzo e-mail o tramite social
-              network, ovvero per ricerche ed analisi di mercato.
+              network,
+              ovvero per
+              ricerche ed analisi di mercato sulle seguenti categorie merceologiche, <a href="merceologiche.html">Clicca
+                qui.
             </label>
           </div>
           <div class="policy-group">
             <input type="checkbox" name="materiale" id="materiale">
             <label for="materiale">Fornisco il consenso ad Adextra Italia S.r.l.s. a comunicare e condividere i dati
-              dell’utente a soggetti terzi per  la ricezione di materiale promozionale, di digital marketing ed
-              e-commerce.</label>
+              dell’utente
+              a soggetti terzi per la
+              ricezione di materiale promozionale, di digital marketing ed e-commerce sulle seguenti categorie
+              merceologiche,
+              <a href="merceologiche.html">Clicca qui.</a></label>
+          </div>
+          <div>
+            <br>
+            <label for="categorie">Seleziona le categorie merceologiche di tuo interesse: ( Tenere premuto CTRL o CMD
+              per usare
+              la
+              selezione multipla ) </label><br />
+            <select id="categorie" name="categorie[]" multiple size="30" style="height:200px;width: 100%;">
+              <option value="Telecomunicazioni">Telecomunicazioni</option>
+              <option value="Finanziario">Finanziario</option>
+              <option value="Assicurazioni">Assicurazioni</option>
+              <option value="Energia">Energia, acqua e gas</option>
+              <option value="ONG">ONG</option>
+              <option value="Servizi legali">Servizi legali</option>
+              <option value="Tempo libero">Tempo libero</option>
+              <option value="Lotterie">Lotterie</option>
+              <option value="Consumi">Consumi di massa:</option>
+              <option value="Automotive">Automotive</option>
+              <option value="Gioielli">Gioielli e Pietre preziose</option>
+              <option value="Istruzione">Istruzione</option>
+              <option value="Agenzie">Agenzie pubblicitarie</option>
+            </select>
           </div>
           <div class="policy-group">
             <p>Compilando questo modulo di richiesta dichiaro di essere maggiorenne e di accettare i

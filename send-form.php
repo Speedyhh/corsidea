@@ -68,6 +68,8 @@ switch ($form_type) {
 $privacy_policy = isset($_POST['privacy-policy']) ? 1 : 0;
 $newsletter = isset($_POST['newsletter']) ? 1 : 0;
 $marketing = isset($_POST['materiale']) ? 1 : 0;
+$categorie = implode(', ', $_POST['categorie']);
+
 
 // Validazione
 $errors = [];

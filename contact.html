@@ -133,46 +133,76 @@
 							<div class="contact-box">
 								<p>Risponderemo alle tue domande il prima possibile!</p>
 								<div class="reply-form">
-									<div role="form" class="form-in-wrapp" id="form-in-wrapp-f1053-p976-o1" lang="en-US"
-										dir="ltr">
+									<div role="form" class="form-in-wrapp" id="form-in-wrapp-f1053-p976-o1" lang="en-US" dir="ltr">
 										<div class="screen-reader-response"></div>
 										<div id="fields">
 											<form action="mail.php" method="POST">
 												<div class="reply-form__box-01 name">
-													<input class="reply-form__name form-in-wrapp-validates-as-required"
-														type="text" name="name" aria-required="true"
-														aria-invalid="false" placeholder="Nome">
+													<input class="reply-form__name form-in-wrapp-validates-as-required" type="text" name="name"
+														aria-required="true" aria-invalid="false" placeholder="Nome">
 												</div>
 
 												<div class="reply-form__box-02 your-email">
 													<input
 														class="reply-form__email form-in-wrapp-validates-as-required form-in-wrapp-validates-as-email"
-														type="email" name="email" aria-required="true"
-														aria-invalid="false" placeholder="Email *">
+														type="email" name="email" aria-required="true" aria-invalid="false" placeholder="Email *">
 												</div>
 												<div class="reply-form__box-04 your-message">
-													<textarea class="reply-form__message" name="message"
-														aria-invalid="false" cols="30" rows="10"
+													<textarea class="reply-form__message" name="message" aria-invalid="false" cols="30" rows="10"
 														placeholder="Messaggio"></textarea>
 												</div>
 												<div class="reply-form__box-04 your-message" style="text-align: left;">
 													<input type="checkbox" id="agree" name="agree" value="true" />
-													Fornisco il consenso al trattamento dei miei dati personali per essere ricontattato in merito alle informazioni richieste con la compilazione del form.<br><a
-														href="privacy-contact.pdf"> Link alla privacy</a>
+													Fornisco il consenso al trattamento dei miei dati personali per essere ricontattato in merito
+													alle informazioni richieste con la compilazione del form.<br><a href="privacy-contact.pdf">
+														Link alla privacy</a>
 													</label>
 												</div>
 												<div class="reply-form__box-04 your-message" style="text-align: left;">
-													<input type="checkbox" id="newsletter" name="newsletter"
-														value="true" />
-													Fornisco il consenso ad Adextra Italia S.r.l.s. al trattamento dei miei dati personali per l’invio di comunicazioni promozionali, newsletter, materiale pubblicitario, per mezzo di sistemi tradizionali di contatto e sistemi informatici
-automatizzati, ivi incluse comunicazioni commerciali o promozionali a mezzo e-mail o tramite social network, ovvero per ricerche ed analisi di mercato.
+													<input type="checkbox" id="newsletter" name="newsletter" value="true" />
+													Fornisco il consenso ad Adextra Italia S.r.l.s. al trattamento dei miei dati personali per
+													l’invio di comunicazioni
+													promozionali, newsletter, materiale pubblicitario, per mezzo di sistemi tradizionali di
+													contatto e sistemi
+													informatici
+													automatizzati, ivi incluse comunicazioni commerciali o promozionali a mezzo e-mail o tramite
+													social network,
+													ovvero per
+													ricerche ed analisi di mercato sulle seguenti categorie merceologiche, <a
+														href="merceologiche.html">Clicca
+														qui.
 
 												</div>
 												<div class="reply-form__box-04 your-message " style="text-align: left;">
-													<input type="checkbox" id="marketing" name="marketing"
-														value="true" />
-												Fornisco il consenso ad Adextra Italia S.r.l.s. a comunicare e condividere i dati dell’utente a soggetti terzi per  la ricezione di materiale promozionale, di digital marketing ed e-commerce.
-
+													<input type="checkbox" id="marketing" name="marketing" value="true" />
+													Fornisco il consenso ad Adextra Italia S.r.l.s. a comunicare e condividere i dati dell’utente
+													a soggetti terzi per la
+													ricezione di materiale promozionale, di digital marketing ed e-commerce sulle seguenti
+													categorie merceologiche,
+													<a href="merceologiche.html">Clicca qui.</a>
+												</div>
+												<div>
+													<br>
+													<label for="categorie">Seleziona le categorie merceologiche di tuo interesse: ( Tenere premuto
+														CTRL o CMD per usare
+														la
+														selezione multipla ) </label><br />
+													<select id="categorie" name="categorie[]" multiple size="30"
+														style="height:200px;width: 100%;">
+														<option value="Telecomunicazioni">Telecomunicazioni</option>
+														<option value="Finanziario">Finanziario</option>
+														<option value="Assicurazioni">Assicurazioni</option>
+														<option value="Energia">Energia, acqua e gas</option>
+														<option value="ONG">ONG</option>
+														<option value="Servizi legali">Servizi legali</option>
+														<option value="Tempo libero">Tempo libero</option>
+														<option value="Lotterie">Lotterie</option>
+														<option value="Consumi">Consumi di massa:</option>
+														<option value="Automotive">Automotive</option>
+														<option value="Gioielli">Gioielli e Pietre preziose</option>
+														<option value="Istruzione">Istruzione</option>
+														<option value="Agenzie">Agenzie pubblicitarie</option>
+													</select>
 												</div>
 												<div class="reply-form__box-05">
 													<input type="submit" class="btn-01" />
@@ -268,7 +298,7 @@ automatizzati, ivi incluse comunicazioni commerciali o promozionali a mezzo e-ma
 	<!-- Superfish v1.7.9 -->
 	<script src="js/plugins/jquery.superfish.min.js"></script>
 
-<script src="js/main.js"></script>
+	<script src="js/main.js"></script>
 
 </body>
 

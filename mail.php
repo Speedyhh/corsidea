@@ -28,6 +28,7 @@ $adminMessage = "
 		    <li>Privacy: {$_POST['agree']}</li>
    		<li>Newsletter: {$_POST['newsletter']}</li>
 		<li>Marketing: {$_POST['marketing']}</li>
+  <li>Categorie Merceologiche: " . implode(', ', $_POST['categorie']) . "</li>
 
 
       </ul>
