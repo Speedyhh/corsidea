@@ -314,21 +314,15 @@ require_once 'config.php';
                 qui.
             </label>
           </div>
-           <div class="policy-group">
-            <input type="checkbox" name="newsletter" id="newsletter">
-            <label for="newsletter"> Fornisco il consenso ad Adextra Italia S.r.l.s. al trattamento dei miei dati
-              personali per
-              l’invio di comunicazioni
-              promozionali, newsletter, materiale pubblicitario, per mezzo di sistemi tradizionali di contatto e sistemi
-              informatici
-              automatizzati, ivi incluse comunicazioni commerciali o promozionali a mezzo e-mail o tramite social
-              network,
-              ovvero per
-              ricerche ed analisi di mercato sulle seguenti categorie merceologiche, <a href="merceologiche.html">Clicca
-                qui.
-            </label>
+          <div class="policy-group">
+            <input type="checkbox" name="materiale" id="materiale">
+            <label for="materiale">Fornisco il consenso ad Adextra Italia S.r.l.s. a comunicare e condividere i dati
+              dell’utente
+              a soggetti terzi per la
+              ricezione di materiale promozionale, di digital marketing ed e-commerce sulle seguenti categorie
+              merceologiche <a href="merceologiche.html">Clicca qui.</a></label>
           </div>
-          <div>
+          <div class="policy-group">
             <br>
             <label for="categorie">Seleziona le categorie merceologiche di tuo interesse: ( Tenere premuto CTRL o CMD
               per usare
