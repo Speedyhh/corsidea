@@ -298,18 +298,11 @@ require_once 'config.php';
 
             <div class="error" id="policyError" style="display: none;">Accetta la privacy policy. </div>
           </div>
-          <div class="policy-group">
-            <input type="checkbox" name="materiale" id="materiale">
-            <label for="materiale">Fornisco il consenso ad Adextra Italia S.r.l.s. a comunicare e condividere i dati
-              dell’utente
-              a soggetti terzi per la
-              ricezione di materiale promozionale, di digital marketing ed e-commerce sulle seguenti categorie
-              merceologiche <a href="merceologiche.html">Clicca qui.</a></label>
-          </div>
 
           <div class="policy-group">
-            <input type="checkbox" name="newsletter" id="newsletter">
-            <label for="newsletter"> Fornisco il consenso ad Adextra Italia S.r.l.s. al trattamento dei miei dati
+            <input type="checkbox" name="materiale" id="materiale">
+            <label for="materiale">
+              Fornisco il consenso ad Adextra Italia S.r.l.s. al trattamento dei miei dati
               personali per
               l’invio di comunicazioni
               promozionali, newsletter, materiale pubblicitario, per mezzo di sistemi tradizionali di contatto e sistemi
@@ -318,7 +311,16 @@ require_once 'config.php';
               network,
               ovvero per
               ricerche ed analisi di mercato sulle seguenti categorie merceologiche, <a href="merceologiche.html">Clicca
-                qui.
+                qui./label>
+          </div>
+
+          <div class="policy-group">
+            <input type="checkbox" name="newsletter" id="newsletter">
+            <label for="newsletter"> Fornisco il consenso ad Adextra Italia S.r.l.s. a comunicare e condividere i dati
+              dell’utente
+              a soggetti terzi per la
+              ricezione di materiale promozionale, di digital marketing ed e-commerce sulle seguenti categorie
+              merceologiche <a href="merceologiche.html">Clicca qui.</a>
             </label>
           </div>
 
