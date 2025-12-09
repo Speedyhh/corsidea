@@ -314,14 +314,13 @@ require_once 'config.php';
                 qui.
             </label>
           </div>
-          <div class="policy-group">
+          <div class="policy-group" style="width: 100%;">
             <input type="checkbox" name="materiale" id="materiale">
             <label for="materiale">Fornisco il consenso ad Adextra Italia S.r.l.s. a comunicare e condividere i dati
               dell’utente
               a soggetti terzi per la
               ricezione di materiale promozionale, di digital marketing ed e-commerce sulle seguenti categorie
-              merceologiche,
-              <a href="merceologiche.html">Clicca qui.</a></label>
+              merceologiche <a href="merceologiche.html">Clicca qui.</a></label>
           </div>
           <div>
             <br>
