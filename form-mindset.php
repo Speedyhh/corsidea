@@ -298,7 +298,14 @@ require_once 'config.php';
 
             <div class="error" id="policyError" style="display: none;">Accetta la privacy policy. </div>
           </div>
-
+          <div class="policy-group">
+            <input type="checkbox" name="materiale" id="materiale">
+            <label for="materiale">Fornisco il consenso ad Adextra Italia S.r.l.s. a comunicare e condividere i dati
+              dell’utente
+              a soggetti terzi per la
+              ricezione di materiale promozionale, di digital marketing ed e-commerce sulle seguenti categorie
+              merceologiche <a href="merceologiche.html">Clicca qui.</a></label>
+          </div>
 
           <div class="policy-group">
             <input type="checkbox" name="newsletter" id="newsletter">
@@ -313,15 +320,8 @@ require_once 'config.php';
               ricerche ed analisi di mercato sulle seguenti categorie merceologiche, <a href="merceologiche.html">Clicca
                 qui.
             </label>
-</div>
-          <div class="policy-group">
-            <input type="checkbox" name="materiale" id="materiale">
-            <label for="materiale">Fornisco il consenso ad Adextra Italia S.r.l.s. a comunicare e condividere i dati
-              dell’utente
-              a soggetti terzi per la
-              ricezione di materiale promozionale, di digital marketing ed e-commerce sulle seguenti categorie
-              merceologiche <a href="merceologiche.html">Clicca qui.</a></label>
           </div>
+
 
           <div class="policy-group">
             <p>Compilando questo modulo di richiesta dichiaro di essere maggiorenne e di accettare i
