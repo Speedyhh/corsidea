@@ -313,14 +313,7 @@ require_once 'config.php';
               ricerche ed analisi di mercato sulle seguenti categorie merceologiche, <a href="merceologiche.html">Clicca
                 qui.
             </label>
-          </div>
-            <div class="policy-group">
-            <p>Compilando questo modulo di richiesta dichiaro di essere maggiorenne e di accettare i
-              Termini
-              e
-              <a href="privacy-mindset.pdf">Privacy Policy</a> di Corsidea.
-            </p>
-          </div>
+</div>
           <div class="policy-group">
             <input type="checkbox" name="materiale" id="materiale">
             <label for="materiale">Fornisco il consenso ad Adextra Italia S.r.l.s. a comunicare e condividere i dati
